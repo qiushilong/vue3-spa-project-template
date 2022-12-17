@@ -9,6 +9,11 @@ const routes = [
     name: "home",
     component: () => import("@/components/HelloWorld.vue"),
   },
+  {
+    path: "/i18n",
+    name: "i18n",
+    component: () => import("@/components/i18n-demo.vue"),
+  },
 ];
 
 export default routes;

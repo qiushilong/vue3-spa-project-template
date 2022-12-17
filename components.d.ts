@@ -10,6 +10,7 @@ declare module '@vue/runtime-core' {
     AButton: typeof import('ant-design-vue/es')['Button']
     Demo: typeof import('./src/components/Demo.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    I18nDemo: typeof import('./src/components/i18n-demo.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
